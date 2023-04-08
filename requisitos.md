@@ -316,345 +316,327 @@
 | **Entrega**     | v1             |
 
 
-| **R36**     | **Usuario**         |
+| **R36**     | **Registro**         |
 | --------------: | :------------------- |
-| **Descripción** | Todo usuario constará de: id, nombre, email, password, moderador              |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Información                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R37**     | **Receta**         |
-| --------------: | :------------------- |
-| **Descripción** | Toda receta constará de: id, titulo, ingredientes, descripcion, dificultad, user_id              |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Información                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R38**     | **Me gusta**         |
-| --------------: | :------------------- |
-| **Descripción** | Se creará una tabla para los me gustas de los usuarios, dicha tabla constará de: id, user_id, receta_id.              |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Información                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R39**     | **Comentario**         |
-| --------------: | :------------------- |
-| **Descripción** | Se creará una tabla para los comentarios de los usuarios, dicha tabla constará de: id, contenido, user_id, receta_id.              |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Información                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R40**     | **Favorito**         |
-| --------------: | :------------------- |
-| **Descripción** | Se creará una tabla para las recetas favoritas de los usuarios, dicha tabla constará de: user_id, receta_id.              |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Información                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R41**     | **Añadir usuario**         |
-| --------------: | :------------------- |
-| **Descripción** | Añadir usuario/s a la base de datos             |
+| **Descripción** | Los usuarios deben de poder registrarse en la aplicación web.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R42**     | **Modificar usuario**         |
+| **R37**     | **Iniciar sesión**         |
 | --------------: | :------------------- |
-| **Descripción** | Modificar un usuario en la base de datos             |
+| **Descripción** | Los usuarios deben de poder iniciar sesión con los datos introducidos en el formulario en la apliación web.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R43**     | **Eliminar usuario**         |
+| **R38**     | **Desloguearse**         |
 | --------------: | :------------------- |
-| **Descripción** | Eliminar un usuario de la base datos.             |
+| **Descripción** | Los usuarios podrán cerrar sesión en la aplicación web.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R44**     | **Denunciar perfil usuario**         |
+| **R39**     | **Vista principal (Usuarios)**         |
 | --------------: | :------------------- |
-| **Descripción** | Denunciar un perfil de usuario, pudiendo enviar información adicional para poder verificar el motivo de la denuncia.             |
+| **Descripción** | Los usuarios, al iniciar sesión/registrarse, serán redirigidos a una página principal.              |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R45**     | **Banear usuario**         |
+| **R40**     | **Búsqueda de actividades**         |
 | --------------: | :------------------- |
-| **Descripción** | Bloquear el acceso a un usuario a nuestra aplicación.             |
+| **Descripción** | Los usuarios podrán realizar búsquedas de actividades según el pueblo que hayan introducido en el buscador.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R41**     | **Vista con resultados de la búsqueda**         |
+| --------------: | :------------------- |
+| **Descripción** | Debe de aparecer las actividades asociadas al pueblo indicado en la búsqueda.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R42**     | **Filtrar resultados**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario puede usar el filtro según sus preferencias de búsquedas. Los resultados deben variar en función de dichos filtros.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R43**     | **Vista de la actividad**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios cuando entren en una actividad podrán ver todos sus detalles (descripción, precios, fechas, etc). Además de poder pagar para reservar esa misma actividad.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R44**     | **Reservar una actividad**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán realizar la reserva de una actividad. Deben de elegir la fecha, hora y el número de personas que serán.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R45**     | **Pago con Paypal**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán pagar las actividades reservadas via Paypal             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v1             |
+
+
+| **R46**     | **Comentar actividad**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán comentar qué les pareció la actividad, cómo fueron las explicaciones del guía, etc.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R47**     | **Modificar comentario**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios pueden modificar sus comentarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R48**     | **Eliminar comentario**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios pueden eliminar sus comentarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R49**     | **Valorar actividad**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán valorar la actividad (positiva o negativamente) la actividad.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R50**     | **Cancelar actividad**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán cancelar una actividad que han reservado.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R51**     | **Punto de encuentro**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán ver en un mapa el punto de encuentro con el guía             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R52**     | **Modificar perfil usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán modificar sus datos de usuarios en su perfil.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R53**     | **Historial de actividades**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán ver todas las actividades que han reservado/realizado.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R54**     | **Empleo**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios interesados podrán acceder al apartado de empleo y rellenar el formulario además de adjuntar su CV.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R55**     | **Panel de Guia**         |
+| --------------: | :------------------- |
+| **Descripción** | Los guias podrán ver todas las actividades que hay ese mismo día.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R56**     | **Detalles actividades**         |
+| --------------: | :------------------- |
+| **Descripción** | Los guias podrán ver toda la información acerca de la activdiad a asignar.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R57**     | **Perfil Guia**         |
+| --------------: | :------------------- |
+| **Descripción** | Los guias podrán modifcar y ver su perfil.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R58**     | **Historial de trabajo**         |
+| --------------: | :------------------- |
+| **Descripción** | Los guias podrán visualizar todos los trabajos que ha realizado así como ver los detalles.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R59**     | **Logros**         |
+| --------------: | :------------------- |
+| **Descripción** | Los guias obtendrán unos logros en función del número de trabajos que haya completado.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
-| **Entrega**     | v2             |
+| **Entrega**     | v3             |
 
 
-| **R46**     | **Moderador**         |
+| **R60**     | **Panel Admin**         |
 | --------------: | :------------------- |
-| **Descripción** | Dar permisos de moderador al usuario.             |
-| **Prioridad**   | Opcional           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R47**     | **Registrarse**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario debe de poder registrarse en la aplicación web.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R48**     | **Loguearse**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario que cuente con un perfil ya creado puede loguearse.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R49**     | **Añadir receta**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario debe de poder añadir una nueva receta.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R50**     | **Editar receta**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario debe de poder editar las recetas que han sido creadas por él.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R51**     | **Eliminar receta**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario debe de poder borrar las recetas que han sido creadas por él.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R52**     | **Denunciar receta**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario debe de poder denunciar/reportar una receta, rellenando un formulario que se enviará como información adicional para poder verificar el motivo de la denuncia.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R53**     | **Verificar receta**         |
-| --------------: | :------------------- |
-| **Descripción** | El moderador/admin debe de poder aprobar las recetas enviadas por los usuarios.             |
-| **Prioridad**   | Opcional           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v2             |
-
-
-| **R54**     | **Dar "me gusta" a una receta**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario puede dar me gusta a la receta que ha sido publicada.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R55**     | **Eliminar "me gusta"**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario puede eliminar el "me gusta" dado a una receta publicada.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R56**     | **Comentar una receta**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario puede comentar en las recetas que han sido publicadas. Dichos comentarios serán públicos y se mostrará el nombre del usuario que ha comentado.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R57**     | **Borrar comentario**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario puede borrar su comentario publicado en una receta.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R58**     | **Denunciar comentario**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario puede denunciar un comentario publicado por otro usuario y explicar en un formulario con más detalle el motivo de la denuncia.             |
-| **Prioridad**   | Opcional           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v2             |
-
-
-| **R59**     | **Guardar en favoritos**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario puede guardar la receta en la lista de favortios             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R60**     | **Eliminar de favoritos**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario puede eliminar de su lista la receta que está añadida.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R61**     | **Filtrado**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario podrá filtrar las recetas que aparecen en pantalla. Por ejemplo:  que aparezcan solo las recetas veganas.             |
+| **Descripción** | Los administradores podrán ver todos los datos (Usuarios y Guias)             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v2             |
 
 
-| **R62**     | **Realizar búsqueda**         |
+| **R61**     | **Modificar datos**         |
 | --------------: | :------------------- |
-| **Descripción** | Realizar búsquedas de recetas a partir del ingrediente introducido.             |
+| **Descripción** | Los administradores podrán modificar todos los datos.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v2             |
 
 
-| **R63**     | **Visualización por prioridad**         |
+| **R62**     | **Dar de alta guia**         |
 | --------------: | :------------------- |
-| **Descripción** | Las recetas se visualizarán en orden de relevancia, en función del número de interaciones.             |
+| **Descripción** | Los administradores podrán dar de alta a un guia.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v2             |
 
 
-| **R64**     | **Impresiones**         |
+| **R63**     | **Dar de baja guia/usuario**         |
 | --------------: | :------------------- |
-| **Descripción** | Cada receta contará con un número que representará el número de me gustas, comentarios, etc que ésta ha recibido.             |
-| **Prioridad**   | Opcional           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v2             |
-
-
-| **R65**     | **Solicitar rol de moderador**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario puede solicitar al usuario admin obtener el rol de moderador y poder así gestionar, en parte, la app.             |
-| **Prioridad**   | Opcional           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v2             |
-
-
-| **R66**     | **Perfiles de usuario**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuiario puede visitar cualquier perfil de otro usuario creado y ver todo el contenido que ha creado.             |
+| **Descripción** | Los administradores podrán dar de baja a un guia/usuario.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v2             |
 
 
-| **R67**     | **"Seguir" a un usuario.**         |
+| **R64**     | **Bloquear usuario**         |
 | --------------: | :------------------- |
-| **Descripción** | El usuario puede dar a "seguir a usuario" y poder ver todo el contenido que vaya publicando en la sección principal de la aplicación.             |
-| **Prioridad**   | Opcional           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v2             |
-
-
-| **R68**     | **Ingredientes alternativos**         |
-| --------------: | :------------------- |
-| **Descripción** | Dentro de la receta, pueden aparecer ingredientes alternativos. Por ejemplo: Si aparece leche entera como ingrediente, que una de las opciones alternativas sea bebida de soja.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v2             |
-
-
-| **R69**     | **Añadir Supermercado**         |
-| --------------: | :------------------- |
-| **Descripción** | El usuario puede añadir el supermercado donde se puede encontrar los ingredientes (o gran parte de ellos) de la receta.             |
+| **Descripción** | Los administradores podrán bloquear el acceso a un usuario.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R70**     | **Ingredientes x Comensales**         |
+| **R65**     | **Asignar actividades**         |
 | --------------: | :------------------- |
-| **Descripción** | El número de ingredientes debe de poder variar en función del número de comensales.             |
-| **Prioridad**   | Opcional           |
+| **Descripción** | Los administradores serán quienes asignarán una actividad al guía.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R66**     | **Correo de verificación de reserva**         |
+| --------------: | :------------------- |
+| **Descripción** | A los usuarios deben de llegar un correo de verificación al realizar una reserva de una actividad.             |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R71**     | **Notas**         |
+| **R67**     | **Correo de verificación de cancelación**         |
 | --------------: | :------------------- |
-| **Descripción** | Los usuarios se pueden añadir notas dentro de cada receta. Estas notas solo son visibles para ellos mismos.             |
-| **Prioridad**   | Opcional           |
+| **Descripción** | A los usuarios deben de llegar un correo de verificación al realizar una cancelación de una actividad.             |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R72**     | **Generar PDF de la receta**         |
+| **R68**     | **Correo de verificación de alta como guia**         |
 | --------------: | :------------------- |
-| **Descripción** | El usuario podrás descargar un archivo PDF con la información de la receta seleccionada.             |
+| **Descripción** | Cuando el usuario da de alta a un guia, a este, le debe de llegar a su correo una verificación de alta. Con todos los datos para poder acceder a la aplicación web.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R69**     | **Cambio de idioma de la apliación web**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación web puede cambiar de idioma (Inglés/Español) según lo necesite el usuario que la esté usando.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
 | **Entrega**     | v3             |
 
 
-| **R73**     | **Geolocalización**         |
+| **R70**     | **Geolocalización**         |
 | --------------: | :------------------- |
-| **Descripción** | El usuario puede buscar las tiendas más cercanas donde han comprado los usuarios los ingredientes que han usado para la receta.             |
+| **Descripción** | Los usuarios podrán ver la distancia a la que se encuentran del punto de encuentro con el guia.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R71**     | **Generar PDF de la actividad**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán descargar el pdf con toda la información de la actividad a realizar.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
 | **Entrega**     | v3             |
 
 
@@ -698,41 +680,39 @@
 | (**R33**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 | 
 | (**R34**) Acceso desde Cliente Virtual | Mínimo | Técnico | Fácil | v1 | 
 | (**R35**) Crear base de datos | Importante | Técnico | Fácil | v1 | 
-| (**R36**) Usuario | Importante | Información | Fácil | v1 | 
-| (**R37**) Receta | Importante | Información | Fácil | v1 | 
-| (**R38**) Me gusta | Importante | Información | Fácil | v1 | 
-| (**R39**) Comentario | Importante | Información | Fácil | v1 | 
-| (**R40**) Favorito | Importante | Información | Fácil | v1 | 
-| (**R41**) Añadir usuario | Importante | Funcional | Fácil | v1 | 
-| (**R42**) Modificar usuario | Importante | Funcional | Fácil | v1 | 
-| (**R43**) Eliminar usuario | Importante | Funcional | Fácil | v1 | 
-| (**R44**) Denunciar perfil usuario | Importante | Funcional | Fácil | v1 | 
-| (**R45**) Banear usuario | Opcional | Funcional | Media | v2 | 
-| (**R46**) Moderador | Opcional | Funcional | Fácil | v1 | 
-| (**R47**) Registrarse | Importante | Funcional | Fácil | v1 | 
-| (**R48**) Loguearse | Importante | Funcional | Fácil | v1 | 
-| (**R49**) Añadir receta | Importante | Funcional | Fácil | v1 | 
-| (**R50**) Editar receta | Importante | Funcional | Fácil | v1 | 
-| (**R51**) Eliminar receta | Importante | Funcional | Fácil | v1 | 
-| (**R52**) Denunciar receta | Importante | Funcional | Fácil | v1 | 
-| (**R53**) Verificar receta | Opcional | Funcional | Fácil | v2 | 
-| (**R54**) Dar "me gusta" a una receta | Importante | Funcional | Fácil | v1 | 
-| (**R55**) Eliminar "me gusta" | Importante | Funcional | Fácil | v1 | 
-| (**R56**) Comentar una receta | Importante | Funcional | Fácil | v1 | 
-| (**R57**) Borrar comentario | Importante | Funcional | Fácil | v1 | 
-| (**R58**) Denunciar comentario | Opcional | Funcional | Fácil | v2 | 
-| (**R59**) Guardar en favoritos | Importante | Funcional | Fácil | v1 | 
-| (**R60**) Eliminar de favoritos | Importante | Funcional | Fácil | v1 | 
-| (**R61**) Filtrado | Importante | Funcional | Fácil | v2 | 
-| (**R62**) Realizar búsqueda | Importante | Funcional | Fácil | v2 | 
-| (**R63**) Visualización por prioridad | Importante | Funcional | Fácil | v2 | 
-| (**R64**) Impresiones | Opcional | Funcional | Fácil | v2 | 
-| (**R65**) Solicitar rol de moderador | Opcional | Funcional | Fácil | v2 | 
-| (**R66**) Perfiles de usuario | Importante | Funcional | Fácil | v2 | 
-| (**R67**) "Seguir" a un usuario. | Opcional | Funcional | Fácil | v2 | 
-| (**R68**) Ingredientes alternativos | Importante | Funcional | Fácil | v2 | 
-| (**R69**) Añadir Supermercado | Importante | Funcional | Media | v2 | 
-| (**R70**) Ingredientes x Comensales | Opcional | Funcional | Media | v2 | 
-| (**R71**) Notas | Opcional | Funcional | Media | v2 | 
-| (**R72**) Generar PDF de la receta | Opcional | Funcional | Difícil | v3 | 
-| (**R73**) Geolocalización | Importante | Funcional | Difícil | v3 | 
+| (**R36**) Registro | Importante | Funcional | Fácil | v1 | 
+| (**R37**) Iniciar sesión | Importante | Funcional | Fácil | v1 | 
+| (**R38**) Desloguearse | Importante | Funcional | Fácil | v1 | 
+| (**R39**) Vista principal (Usuarios) | Importante | Funcional | Fácil | v1 | 
+| (**R40**) Búsqueda de actividades | Importante | Funcional | Fácil | v1 | 
+| (**R41**) Vista con resultados de la búsqueda | Importante | Funcional | Fácil | v1 | 
+| (**R42**) Filtrar resultados | Importante | Funcional | Media | v1 | 
+| (**R43**) Vista de la actividad | Importante | Funcional | Fácil | v1 | 
+| (**R44**) Reservar una actividad | Importante | Funcional | Fácil | v1 | 
+| (**R45**) Pago con Paypal | Importante | Funcional | Difícil | v1 | 
+| (**R46**) Comentar actividad | Importante | Funcional | Fácil | v1 | 
+| (**R47**) Modificar comentario | Importante | Funcional | Fácil | v1 | 
+| (**R48**) Eliminar comentario | Importante | Funcional | Fácil | v1 | 
+| (**R49**) Valorar actividad | Opcional | Funcional | Fácil | v3 | 
+| (**R50**) Cancelar actividad | Importante | Funcional | Fácil | v1 | 
+| (**R51**) Punto de encuentro | Importante | Funcional | Media | v1 | 
+| (**R52**) Modificar perfil usuario | Importante | Funcional | Fácil | v1 | 
+| (**R53**) Historial de actividades | Importante | Funcional | Fácil | v1 | 
+| (**R54**) Empleo | Importante | Funcional | Fácil | v2 | 
+| (**R55**) Panel de Guia | Importante | Funcional | Fácil | v2 | 
+| (**R56**) Detalles actividades | Importante | Funcional | Fácil | v2 | 
+| (**R57**) Perfil Guia | Importante | Funcional | Fácil | v2 | 
+| (**R58**) Historial de trabajo | Importante | Funcional | Fácil | v2 | 
+| (**R59**) Logros | Opcional | Funcional | Media | v3 | 
+| (**R60**) Panel Admin | Importante | Funcional | Fácil | v2 | 
+| (**R61**) Modificar datos | Importante | Funcional | Fácil | v2 | 
+| (**R62**) Dar de alta guia | Importante | Funcional | Fácil | v2 | 
+| (**R63**) Dar de baja guia/usuario | Importante | Funcional | Fácil | v2 | 
+| (**R64**) Bloquear usuario | Importante | Funcional | Media | v2 | 
+| (**R65**) Asignar actividades | Importante | Funcional | Fácil | v2 | 
+| (**R66**) Correo de verificación de reserva | Importante | Funcional | Media | v2 | 
+| (**R67**) Correo de verificación de cancelación | Importante | Funcional | Media | v2 | 
+| (**R68**) Correo de verificación de alta como guia | Importante | Funcional | Media | v2 | 
+| (**R69**) Cambio de idioma de la apliación web | Opcional | Funcional | Difícil | v3 | 
+| (**R70**) Geolocalización | Importante | Funcional | Difícil | v3 | 
+| (**R71**) Generar PDF de la actividad | Opcional | Funcional | Media | v3 | 
